@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <title>UNTITLED</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Noto+Sans+KR&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    .header {grid-area : 1/1/2/3;}
+    .menu {grid-area:2/1/3/2; font-family:Noto Sans KR;}
+    .contents {grid-area : 2/2/2/3;font-family:Noto Sans KR;}
+    .info {grid-area :3/1/3/3; text-align:center;font-family:Roboto;}
+    .grid-container {
+      display : grid;
+      grid-template-columns: auto auto;
+      grid-gap : 20px;
+    }
+    ul {
+      color :black;
+      text-decoration:none;
+      list-style-type:none;
+    }
+    h1 {
+      /*title*/
+      text-align :center;
+      font : 300% bold;
+      font-family: Comic Sans MS;
+    }
+    pre {
+      font-size:15px;
+      font-family:Noto Sans KR;
+    }
+  </style>
+</head>
+
+<body>
+<div class="grid-container">
+  <div class="header"><h1>UNTITLED</h1></div>
+
+  <div class="menu">
+      <ul>
+      <li>Introspection</li>
+      <li>Chemistry in lab</li>
+      <li>Chemistry in text</li>
+      <li>Environment</li>
+      <li>Books</li>
+        <li>Travel</li>
+      <li>Arts and Societies</li>
+    </ul>
+  </div>
+
+  <div class="contents">
+      <h2>Introduction</h2>
+      <pre>
+        방정리는 잘 안 해도 생각정리는 많이 하고 실천여부와 관계없이 계획하는 것을 즐기는 갓어른입니다.
+        세상 돌아가는 일, 약자 한 명 한 명이 살아가는 삶에 더 열심히 관심을 가지고자 하는 화학과 학생입니다.
+        누군가는 해야하는 일에 근거 모를 사명감은 있지만 이를 어떻게 해결해야 할지 고민 중인 청년입니다.
+        여럿이 만날 때보다 둘이서 만날 때 말이 더 많고, 심심풀이 가십보다 인격과 사고를 공유하는 대화를 더 잘하는 수다쟁이입니다.
+      </pre>
+
+    <div id="disqus_thread"></div>
+  <script>
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://untitled-8.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <script id="dsq-count-scr" src="//untitled-8.disqus.com/count.js" async></script>
+  </div>
+
+  <div class="info">
+    <p>
+      Built by Nttld. Instaram @star_nttld
+    </p>
+  </div>
+</div>
+</body>
+</html>

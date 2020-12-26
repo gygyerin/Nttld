@@ -24,20 +24,10 @@
     font : 300% bold;
     font-family: Comic Sans MS;
     padding: 15px; margin:15px;
+    margin: 0px;
   }
   pre {
     font-size:15px;
     font-family:Noto Sans KR;
     white-space: pre-wrap;
-  }
-  @media(max-width:800px) {
-    .grid-container {
-      display: block;
-    }
-    h1 {
-      margin: 0px;
-    }
-    .menu {
-      border-right: none
-    }
   }
